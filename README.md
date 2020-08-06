@@ -1,11 +1,11 @@
 # **SEARCH WORD BOT**
-<br>
+<br><br>
 
 ![](SSS.jpg)
 
-<br>
+<br><br>
 
-##Libraries Used 
+#### Libraries Used 
 
 
 * TKINTER
@@ -14,11 +14,14 @@
 
 To see the Real Search Word WEBSITE  [Click Hear](http://word-search-puzzles.appspot.com/)
 ***
+<br><br>
 
 ### About This Project
 ***
 
 This Project is Divided into Two Main Parts
+
+<br>
 
 * #### TAKING THE INPUT
 
@@ -26,12 +29,14 @@ This Project is Divided into Two Main Parts
 
 The Image Segment's Of the Interpreted Words with Wired Symbols. 
 
+<br>
+
 > *This is Really the Challenging Part Because We are Suppose To Get the Data From the 
 >the Real World Which means we have to Deal with Complicated thing Like Convertimg the Image into
 >Text ,Hence This Program First Converts The Image into grid Of Letters which many Times It happens that 
 >it Captures wrong Letters and It Capture Character's like " ! , } , @ " etc, Hence Requires A lot Of Prepossessing in the Background.*
 
-<br>
+<br><br>
 
 > We Have Collected Wordes Of the to Be Searched Using Web Scraping with Selenium
 
@@ -41,12 +46,14 @@ The Image Segment's Of the Interpreted Words with Wired Symbols.
 >Converts It In to Text Grid**.
 >
 
+<br><br>
+
 * #### APPLYING BOT ALGORITHM ON DATA
 
 > *This is The Easier than the  Data Collection, Once The Data Is Collected (Data Consist)
 >BOT Find's In all The Eight Direction's With the Help of Dictionary Data Structure In Python*
 
-<br>
+<br><br>
 
 ##### **OUTPUT WINDOW**
 
