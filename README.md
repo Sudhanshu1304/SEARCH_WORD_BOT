@@ -15,6 +15,7 @@ To See the Algo in Action [Click Hear](https://www.linkedin.com/feed/update/urn:
 * TKINTER
 * PYTESSERACT
 * CV2
+* SELENIUM
 
 To see the Real Search Word WEBSITE  [Click Hear](http://word-search-puzzles.appspot.com/)
 ***
