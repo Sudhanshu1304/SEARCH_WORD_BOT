@@ -55,13 +55,9 @@ def fun():
     MM = l2
     My_ans = []
     answer = []
-    #Answer = ['VYTW','Witch', 'Black', 'Orange', 'Ghost', 'Bat', 'Candy', 'Trick', 'Teat ', 'Broom']
-    #Answer=['LNC']#['NJZ','BOK','CPG','MIK']
-    #Answer = ['RSRRT','ERD','AJTTN','UNYA','GIR','RRAL','RTI','EERL','TOAST','RESU','AGIA','ASTRONOMER', 'ATTAR', 'CLAMORINC','DINCO','DYING', 'ELECTOR', 'ENDOWS', 'FLITS','ALSO','ALTER','APPAL','ASKS','BAWL','BRISKS','BURG','BUXOM','CREMATES','DETACH']
-    #Answer=['ASTRONOMER','APPAL','TOAST','ENDOWS','ATTAR', 'CLAMORINC','DINCO','DYING', 'ELECTOR', 'FLITS','ALSO','ALTER','ASKS','BAWL','BRISKS','BURG','BUXOM','CREMATES','DETACH']
+  
     Answer=ANS
-    #print(Answer)
-    # Answer=['KLM','KHI','KMS']
+  
     for elementes in Answer:
         answer.append(elementes.upper())
 
@@ -81,8 +77,6 @@ def fun():
                     My_ans.append('*')
 
 
-    # print('HOR MY ANS:',My_ans)
-   # print('HOR MY ANS:',My_ans)
     #####                                     VARTICAL Search                            #####################
 
     L = []
@@ -167,7 +161,7 @@ def fun():
             #print('C:',c)
 
 
-    ##print(My_ans)
+ 
     #####                                        TKINTER  APPLIED                            #######################
 
     import random  ##      To choose random colour for printing        ###
