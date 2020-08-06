@@ -36,14 +36,14 @@ The Image Segment's Of the Interpreted Words with Wired Symbols.
 
 <br>
 
-> *This is Really the Challenging Part Because We are Suppose To Get the Data From the 
+> *This is Really the Challenging Part Because We are Suppose To Get the Data From  
 >the Real World Which means we have to Deal with Complicated thing Like Convertimg the Image into
->Text ,Hence This Program First Converts The Image into grid Of Letters which many Times It happens that 
+>Text .This Program First Converts The Image into grid Of Letters in which many Times It happens that 
 >it Captures wrong Letters and It Capture Character's like " ! , } , @ " etc, Hence Requires A lot Of Prepossessing in the Background.*
 
 <br><br>
 
-> We Have Collected Wordes Of the to Be Searched Using Web Scraping with Selenium
+> We Have Collected Wordes are to Be Searched Using Web Scraping with Selenium.
 
 > ***NOTE*** - **One Could Think That Why Din't We Took The Grid Letters with Using 
 >Scraping ?<br>Actully That is Not Possible Because This Data is Not Made Avalable To 
