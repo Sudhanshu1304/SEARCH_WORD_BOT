@@ -43,17 +43,14 @@ for i in range(len(b)):
 
 ll=''.join(ll)
 ll=ll.split('\n')
-ANS=ll
-#print("ANSSS :: \n\n",ANS)
+
+
 ##                                        Getting The Grid Of Search Word                                             ##
-#790,320,940,740
+
 image=pyautogui.screenshot(region=(800,330,930,728))#800,330,930,728
-#plt.imshow(image)
-#plt.show()
+
 
 image.save('imae.png')
-
-
 
 img = cv2.imread('imae.png')
 img2= cv2.imread('imae.png')
@@ -66,25 +63,14 @@ img=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 img2=cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
 img3=cv2.cvtColor(img3, cv2.COLOR_BGR2GRAY)
 
-'''
-th=threshold_mean(img)
-img=img>th#-5
-th2=threshold_triangle(img2)
-img2=img2>th2
-th3=threshold_otsu(img3)
-img3=img3>th3
-'''
+img3>th3
+
 pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract'
 custom_oem_psm_config = r'--oem 3 --psm 6'
 
 p=pytesseract.image_to_string(img, config=custom_oem_psm_config)
 p2=pytesseract.image_to_string(img2, config=custom_oem_psm_config)
 p3=pytesseract.image_to_string(img3, config=custom_oem_psm_config)
-
-print('\n',p,len(p),'\n\n')
-print(p2,'\n',len(p2))
-print(p3,'\n',len(p3))
-
 
 if len(p2)<len(p) and len(p2)<len(p3):
     p=p2
@@ -135,13 +121,9 @@ for r in range(len(p)):
 
 p=''.join(p)
 p=p.upper()
-#print('@@@@@@@@@@@@@@')
-
 
 p=list(p)
 
-#print('########')
-#print(p)
 
 for e in range(len(p)):
 
