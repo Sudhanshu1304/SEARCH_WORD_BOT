@@ -32,7 +32,7 @@ This Project is Divided into Two Main Parts
 
 ![](Output.png)
 
-The Image Segment's Of the Interpreted Words with Wired Symbols. 
+The Image Segment's Of the Interpreted Words with Weird Symbols. 
 
 <br>
 
