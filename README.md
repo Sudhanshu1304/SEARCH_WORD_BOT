@@ -45,7 +45,7 @@ The Image Segment's Of the Interpreted Words with Weird Symbols.
 
 > We Have Collected Wordes are to Be Searched Using Web Scraping with Selenium.
 
-> ***NOTE*** - **One Could Think That Why Din't We Took The Grid Letters with Using 
+> ***NOTE*** - **One Could Think That Why Didn't We Took The Grid Letters with Using 
 >Scraping ?<br>Actully That is Not Possible Because This Data is Not Made Avalable To 
 >Scrapy Elements , Hence This Program First Takes The Screenshot of The Grid Then
 >Converts It In to Text Grid**.
